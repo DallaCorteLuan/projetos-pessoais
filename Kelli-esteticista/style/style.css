@@ -12,184 +12,188 @@
     font-weight: normal;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@media screen and (max-width: 768px) {
+    
+  .grid-beneficios {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 300px;
+        gap: 20px 20px;
+      }
+    
+    .bene {
+        font-size: .9em;
+        text-align: center;
+        color: #fff; 
+        background-color: #3b3a1e;   
+        border-radius: 40px;     
+        height: 100%;
+    }
+    
+    .divisa {
+        margin: 20px;
+        font-size: .6em;
+        
+    }
 
-:root {
-    --cor01: #aa612f;
-    --cor02: #3b3a1e;
-}
+    .cor-destaque, .cor-h2 {
+        color: var(--cor02);
+    }
+    
+    .servicos {
+        text-align: center;
+        background-image: url(../imagens/fundo-branco-logo-terracota-peq.jpg);
+        background-size: 100%;
+      }
+    
+    
+    .grid-servicos {
+        display: flex ;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center; 
+        gap: 20px 20px;   
+        margin-top: -5px;
+      }
+    
+      .serv {
+        background-color: var(--cor01);
+        box-shadow: 2px 2px 3px #29170b;
+        padding: 20px;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+      }
+    
+      .serv > h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.6em;
+        color: #3b3a1e;
+        
+      }
+      .serv > p {
+        font-size: 1.5em;
+        color: #fff;
+      }
+    
+    .divisa-02 {
+        padding: 30px;
+        color: var(--cor02);
+        text-align: center;
+        font-size: 2em;
+        font-family: 'marcellus', sans-serif;
+    }
+    
+    .cor-destaque-02{
+        color: var(--cor01);
+    }
 
-body, html {
-    background-color: #fff;
-}
+    .botao {
+        background-color: var(--cor02);
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 30px;
+        font-size: 1em;
+        text-align: center;
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;        
+    }
 
-a {
-    text-align: center;
-    text-decoration: none;
-    font-family: 'poppins';
-    font-size: 1em;
-    color: #fff;    
-}
+    .profissional {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px 20px;
+        padding: 20px; 
+        text-align: left;
+    } 
 
-.botao {
-    font-family: 'poppins';
-    text-align: center;
-    font-size: 2em;    
-    background-color: var(--cor02);
-    border-radius: 50px;
-    padding: 10px;
-
-}
-
-.img-banner {
-    width: 100%;
-    height: 50px;
-    object-fit: cover;
-}
-
-.apresentacao {
-    font-size: 1.5em;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 20px 60px ;
-}
-
-.tx-apresentacao {
-    display: flex;
-    flex-direction: column;
-    margin-left: 70px;
-}
-
-h1 {
-    font-family: 'marcellus';
-    font-size: 3.6em;
-    color: var(--cor01);
-    text-align: center;
-}
-
-h2 {
-    font-family: 'marcellus';
-}
+    .img-kelli {
+        border-radius: 40px;
+        max-width: 300px;        
+    }
 
 
-p {
-    font-family: 'poppins';
-    font-size: 1.7em;
-    font-weight: normal;
-    color: var(--cor02);
-}
+    .titulo-kelli {
+        color: var(--cor01);
+        font-size: 1.5em;
+    }
 
-.massagem {
-    border-radius: 50px;
-    margin: 50px 50px;
-}
+    .missao {
+        font-size: 1.5em;
+        color: var(--cor01);
+        text-align: left;
+    }
 
-.divisa-beneficios {
-    background-color: var(--cor01) ;
-    color: #fff;
-    font-size: 1em;
-}
-.beneficios {
-    padding: 60px 20px;
-    text-align: center;
-  }
+    .tx-kelli, .tx-missao {
+        font-size: 1em;
+        color: var(--cor02);
+        align-self: flex-start;
+        text-align: left;
+        text-indent: 1em
+    }
 
-.beneficios h1 {
-    font-size: 3em;
-    background-color: var(--cor01);
-    color: #fff;
-    padding: 10px 5px;
-    margin: 0 -50px 0 -50px;
-}
+    .agenda {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px 20px;
+        padding: 0 20px 20px 20px;
+    }
 
-.grid-beneficios {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    max-width: 900px;
-    margin: 40px auto 0;
-    grid-auto-rows: masonry;
-  }
+    #ca{
+        font-size: 2em;
+        font-family: 'poppins', sans-serif;
+        font-weight: 900;
+        text-align: center;
+        color: var(--cor02);
+    }
+    
+    a.agendamento {
+        background-color: var(--cor01);
+        font-size: 1.3em;
+        font-weight: 900;
+        color: #fff;
+        padding: 10px 40px;
+        border-radius: 60px;
+        box-shadow: 1px 1px 2px #29170b;
+        }
 
-.grid-beneficios  p {
-    font-size: 1.5em;
-    padding: 2pxpx;
-    color: #fff; 
-    border-radius: 40px;
-    background-color: #3b3a1e;
-    min-height: 130px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100%;
-    margin: 20px;
-}
+    .seu-momento {
+        color: var(--cor02);
+        font-family: 'marcellus', sans-serif;
+        font-size: 1.5em;
+        text-align: center;
+        padding: 0 20px 20px 20px;
+    }
 
-.cor-destaque, .cor-h2 {
-    color: var(--cor02);
-}
+    .localizacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: self-start;
+        gap: 20px 20px;
+        padding: 0 20px 20px 20px; 
+        font-size: 0.8em;
+    }
 
-.divisa {
-    margin: 20px;
-    font-size: 3.5em;
-}
+    #wpp, #ins {
+        color:var(--cor02);
+        font-size: 1.0em;
+    }
 
-.servicos {
-    text-align: center;
-    background-image: url(../imagens/fundo-branco-logo-terracota.jpg);
-    background-size: 100%;
-  }
-
-.servicos h1 {
-    text-align: center;
-    font-size: 2em;
-    color: var(--cor01);
-}
-
-.grid-servicos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 140px; 
-    gap: 50px 20px;   
-    max-width: 900px;
-    margin: auto;
-    padding: 40px 20px;
-  }
-
-  .item {
-    background-color: var(--cor01);
-    padding: 20px;
-    border-radius: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-  }
-
-  .item h2 {
-    font-size: 1.5em;
-  }
-  .item p {
-    font-size: 1em;
-  }
-
-.divisa-02 {
-    padding: 30px;
-    color: var(--cor02);
-}
-
-.cor-destaque-02{
-    color: var(--cor01);
-}
-
-footer {
-    background-color: var(--cor01);
-    color: #fff;
+    footer > p {
+        text-align: center;
+        font-size: 0.8em;
+        color: #fff;
+        background-color: var(--cor01);
+        padding: 3px;        
+    }
 }

@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'marcellus';
+    src: url(../fonts/Marcellus-Regular.ttf) format(opentype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(../fonts/Poppins-Regular.ttf) format(opentype);
+    font-weight: normal;
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    :root {
+        --cor01: #aa612f;
+        --cor02: #3b3a1e;
+    }
+    
+    body, html {
+        background-color: #fff;
+    }   
+
+    .banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .tx-apres {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+    }
+
+    .tx-apres > h1{
+        font-family: 'marcellus', sans-serif;
+        font-size: 3.5em;
+        text-align: center;
+        color: var(--cor01);
+        margin-top: 20px;
+
+
+        border: 2px dashed red;
+    }
+
+    .tx-apres > p {
+        font-family: 'poppins', sans-serif;
+        font-size: 2em;
+        font-weight: 900;
+        text-align: center;
+        color: var(--cor02);
+
+
+        border: 2px dashed rgb(38, 0, 255);
+    }
+
+    .tx-apres > .botao {
+        background-color: var(--cor02);
+        color: #fff;
+        font-size: 2em;
+        text-decoration: none;
+        text-align: center;
+        padding: 20px 150px;
+        margin: 20px;
+        border-radius: 60px;
+        align-self: center;        
+    }
+
+    .img-massagem {
+        align-items: center;
+        border-radius: 100px;
+        width: 80vw;
+    }
+
+    #tl-beneficios > h2 {
+        font-family: 'marcellus', sans-serif;
+        font-size: 1.5em;
+        padding: 10px;
+        text-align: center;
+        color: #fff;
+        background-color: var(--cor01);
+        margin: 30px 0;
+    }
+
+    .grid-beneficios {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+        gap: 20px 20px;
+    }
+    
+    .bene {
+        flex: 0 0 40%;
+        background-color: var(--cor02);
+        color: #fff;
+        font-family: 'poppins', sans-serif;
+        font-weight: 900;
+        text-align: center;
+        border: 1px solid #000;
+        border-radius: 40px;
+        padding: 20px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
