@@ -12,7 +12,7 @@
     font-weight: normal;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 468px) {
     * {
         margin: 0;
         padding: 0;
@@ -56,7 +56,7 @@
 
     .tx-apres > h1{
         font-family: 'marcellus', sans-serif;
-        font-size: 2em;
+        font-size: 1.7em;
         text-align: center;
         color: var(--cor01);
         margin-top: 20px;
@@ -64,15 +64,15 @@
 
     .tx-apres > p {
         font-family: 'poppins', sans-serif;
-        font-size: 1em;
+        font-size: 1.3em;
         font-weight: 900;
         text-align: center;
         color: var(--cor02); 
-        margin: 0 60px;       
+        margin: 0 20px;       
     }
 
     .tx-apres > .botao {
-        width: 350px;
+        width: 300px;
         padding: 20px 0;
         background-color: var(--cor02);
         color: #fff;
@@ -150,7 +150,7 @@
         box-shadow: 2px 2px 5px #000000af;
         border-radius: 60px;
         padding: 50px;
-        height: 150px;
+        height: 250px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -160,7 +160,7 @@
 
     .sev > h2 {
         font-family: 'marcellus', sans-serif;
-        font-size: 1.6em;
+        font-size: 1em;
         color: #fff;
         text-shadow: 2px 2px 2px #000000b2;
         
