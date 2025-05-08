@@ -12,7 +12,7 @@
     font-weight: normal;
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 768px) {
     * {
         margin: 0;
         padding: 0;
@@ -94,7 +94,7 @@
 
     #tl-beneficios > h2 {
         font-family: 'marcellus', sans-serif;
-        font-size: 1.5em;
+        font-size: 1em;
         padding: 10px;
         text-align: center;
         color: #fff;
@@ -161,14 +161,13 @@
     .sev > h2 {
         font-family: 'marcellus', sans-serif;
         font-size: 1em;
-        color: #fff;
+        color: #ff0000;
         text-shadow: 2px 2px 2px #000000b2;
         
     }
     .serv > p {
         color: #fff;
         font-family: 'poppins', sans-serif;
-        
     }
 
 
