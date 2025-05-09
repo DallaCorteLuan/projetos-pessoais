@@ -229,6 +229,7 @@
         text-indent: 1em;
         font-family: 'poppins', sans-serif;
         font-size: 0.9em;
+        padding: 15px;
     }
 
     .missao {
@@ -243,7 +244,8 @@
     .tx-missao {
         font-family: 'poppins', sans-serif;
         text-indent: 1em;
-        font-size: 0.9em;        
+        font-size: 0.9em;
+        padding: 15px;        
     }
     
     .chamada {
