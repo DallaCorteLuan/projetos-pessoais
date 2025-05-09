@@ -183,7 +183,12 @@
         margin: 20px;
     }
     .bt-whatsapp {
-        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        margin-left: 10%;
         padding: 20px 0;
         background-color: var(--cor02);
         color: #fff;
@@ -192,18 +197,136 @@
         font-weight: 900;
         text-decoration: none;
         text-align: center;
-        align-self: center;
-        margin: 20px;
         border-radius: 60px;     
     }
+    
     .bt-whatsapp > a {
         background-color: #3b3a1e;
         color: #fff;
-        text-decoration: none;
-        
+        text-decoration: none;  
     }
 
-   
+    .apres-profissional {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+    }
 
+    .img-kelli {
+        border-radius: 100px;
+        width: 80vw;
+    }
+
+    .titulo-kelli {
+        font-family: 'marcellus', sans-serif;
+        font-size: 1.3em;
+        text-align: center;
+        color: var(--cor01);  
+    }
+
+    .tx-kelli {
+        text-indent: 1em;
+        font-family: 'poppins', sans-serif;
+        font-size: 0.9em;
+    }
+
+    .missao {
+        font-family: 'marcellus', sans-serif;
+        font-size: 0.9em;
+        text-align: left;
+        align-self: self-start;
+        color: var(--cor01);  
+        margin: 10px 0;
+    }
+
+    .tx-missao {
+        font-family: 'poppins', sans-serif;
+        text-indent: 1em;
+        font-size: 0.9em;        
+    }
+    
+    .chamada {
+        font-family: 'poppins', sans-serif;
+        font-size: 1.3em;
+        font-weight: normal;
+        text-align: center;
+        color: var(--cor02);
+    }
+
+    .agendamento {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        margin: 20px 10%;
+        padding: 20px 0;
+        background-color: var(--cor01);
+        color: #fff;
+        font-family: 'marcellus', sans-serif;
+        font-size: 1.5em;
+        font-weight: 900;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 60px;     
+        box-shadow: 1px 1px 2px #29170b;
+    }
+
+   .agendamento > a {
+    color: #fff;
+    text-decoration: none;
+   }
+
+    .localizacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: self-start;
+        gap: 20px 20px;
+        padding: 0 20px 20px 20px; 
+        font-size: 0.8em;
+    }
+
+    #wpp, #ins {
+        color:var(--cor02);
+        font-size: 1.0em;
+    }
+
+    footer > p {
+        text-align: center;
+        font-size: 0.8em;
+        color: #fff;
+        background-color: var(--cor01);
+        padding: 3px;        
+    }
+
+    .seu-momento {
+        text-align: center;
+        color: var(--cor02);
+        font-family: 'marcellus', sans-serif;
+        font-size: 1em;
+        margin: 20px;
+    }
+
+    .localizacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: self-start;
+        gap: 20px 20px;
+        padding: 0 20px 20px 20px; 
+        font-size: 1em;
+        font-family: 'poppins', sans-serif;
+    }
+
+    footer {
+        font-family: 'poppins', sans-serif;
+        text-align: center;
+        font-size: 1em;
+        color: #fff;
+        background-color: var(--cor01);
+        padding: 5px;        
+    }
 
 }
