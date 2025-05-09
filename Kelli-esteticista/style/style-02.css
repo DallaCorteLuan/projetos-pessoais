@@ -28,6 +28,10 @@
         color: var(--cor02);
     }
 
+    .cor-destaque-02 {
+        color: var(--cor01);
+    }
+
     body, html {
         background-color: #fff;
         overflow-x: hidden;
@@ -129,8 +133,9 @@
     .escolha {
         color: var(--cor01);
         font-family: 'marcellus', sans-serif;
+        font-size: 1em;
         text-align: center;
-        margin: 10px 0;
+        margin: 30px 30px;        
     }
 
     .servicos {
@@ -158,18 +163,47 @@
         flex: 0 0 80%
     }
 
-    .sev > h2 {
+    .serv > h2 {
+        color: #ffffff;
         font-family: 'marcellus', sans-serif;
-        font-size: 1em;
-        color: #ff0000;
-        text-shadow: 2px 2px 2px #000000b2;
-        
+        margin-bottom: 8px;
+        font-size: 1.5em;
     }
+    
     .serv > p {
         color: #fff;
         font-family: 'poppins', sans-serif;
     }
 
+    .ca > h2  {
+        font-family: 'marcellus', sans-serif;
+        font-size: 2em;
+        text-align: center;
+        color: var(--cor02);
+        margin: 20px;
+    }
+    .bt-whatsapp {
+        width: 300px;
+        padding: 20px 0;
+        background-color: var(--cor02);
+        color: #fff;
+        font-family: 'marcellus', sans-serif;
+        font-size: 1em;
+        font-weight: 900;
+        text-decoration: none;
+        text-align: center;
+        align-self: center;
+        margin: 20px;
+        border-radius: 60px;     
+    }
+    .bt-whatsapp > a {
+        background-color: #3b3a1e;
+        color: #fff;
+        text-decoration: none;
+        
+    }
+
+   
 
 
 }
