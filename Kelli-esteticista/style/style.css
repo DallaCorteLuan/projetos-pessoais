@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+/* Versão Telas Maiores */
+
+
 @font-face {
     font-family: 'marcellus';
     src: url(../fonts/Marcellus-Regular.ttf) format(opentype);
@@ -12,323 +15,186 @@
     font-weight: normal;
 }
 
-@media screen and (max-width: 768px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+@media screen and (min-width: 769px) {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    :root {
-        --cor01: #aa612f;
-        --cor02: #3b3a1e;
-    }
+:root {
+    --cor01: #aa612f;
+    --cor02: #3b3a1e;
+}
     
-    .cor-destaque {
-        color: var(--cor02);
-    }
+.cor-destaque {
+    color: var(--cor02);
+}
 
-    .cor-destaque-02 {
-        color: var(--cor01);
-    }
+.cor-destaque-02 {
+    color: var(--cor01);
+ }
 
-    body, html {
-        background-color: #fff;
-        overflow-x: hidden;
-    }   
+ body, html {
+    background-color: #fff;
+    overflow-x: hidden;
+ }
 
-    .banner {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        max-width: 100vw;
-    }
+.banner-g {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    max-width: 100vw;
+}
 
-    .apresentacao {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.banner {
+    display: none;
+}
 
-    .tx-apres {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 10px;
-    }
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;  
+    max-width: 1800px; 
+}
 
-    .tx-apres > h1{
-        font-family: 'marcellus', sans-serif;
-        font-size: 1.7em;
-        text-align: center;
-        color: var(--cor01);
-        margin-top: 20px;
-    }
+.tx-apres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+}
 
-    .tx-apres > p {
-        font-family: 'poppins', sans-serif;
-        font-size: 1.3em;
-        font-weight: 900;
-        text-align: center;
-        color: var(--cor02); 
-        margin: 0 20px;       
-    }
+.tx-apres > h1{
+    font-family: 'marcellus', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: var(--cor01);
+    margin-top: 20px;
+}
 
-    .tx-apres > .botao {
-        width: 300px;
-        padding: 20px 0;
-        background-color: var(--cor02);
-        color: #fff;
-        font-family: 'marcellus', sans-serif;
-        font-size: 1em;
-        font-weight: 900;
-        text-decoration: none;
-        text-align: center;
-        align-self: center;
-        margin: 20px;
-        border-radius: 60px;        
-    }
+.tx-apres > p {
+    font-family: 'poppins', sans-serif;
+    font-size: 1.3em;
+    font-weight: 900;
+    text-align: center;
+    color: var(--cor02); 
+    margin: 0 20px;       
+}    
 
-    .img-massagem {
-        align-items: center;
-        border-radius: 100px;
-        width: 80vw;
-    }
-
-    #tl-beneficios > h2 {
-        font-family: 'marcellus', sans-serif;
-        font-size: 1em;
-        padding: 10px;
-        text-align: center;
-        color: #fff;
-        background-color: var(--cor01);
-        margin: 30px 0;
-    }
-
-    .grid-beneficios {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;        
-        gap: 20px 20px;
-    }
-    
-    .bene {
-        flex: 0 0 40%;
-        background-color: var(--cor02);
-        color: #fff;
-        font-family: 'poppins', sans-serif;
-        font-weight: 900;
-        text-align: center;
-        box-shadow: 2px 2px 5px #000;
-        border-radius: 40px;
-        padding: 20px;
-        height: 150px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .escolha {
-        color: var(--cor01);
-        font-family: 'marcellus', sans-serif;
-        font-size: 1em;
-        text-align: center;
-        margin: 30px 30px;        
-    }
-
-    .servicos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;        
-        gap: 20px 20px;
-    }
-
-    .serv {
-        background-color: var(--cor01);
-        color: #fff;
-        font-family: 'poppins', sans-serif;
-        font-weight: 900;
-        text-align: center;
-        box-shadow: 2px 2px 5px #000000af;
-        border-radius: 60px;
-        padding: 50px;
-        height: 250px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex: 0 0 80%
-    }
-
-    .serv > h2 {
-        color: #ffffff;
-        font-family: 'marcellus', sans-serif;
-        margin-bottom: 8px;
-        font-size: 1.5em;
-    }
-    
-    .serv > p {
-        color: #fff;
-        font-family: 'poppins', sans-serif;
-    }
-
-    .ca > h2  {
-        font-family: 'marcellus', sans-serif;
-        font-size: 2em;
-        text-align: center;
-        color: var(--cor02);
-        margin: 20px;
-    }
-    .bt-whatsapp {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 80vw;
-        margin-left: 10%;
-        padding: 20px 0;
-        background-color: var(--cor02);
-        color: #fff;
-        font-family: 'marcellus', sans-serif;
-        font-size: 1em;
-        font-weight: 900;
-        text-decoration: none;
-        text-align: center;
-        border-radius: 60px;     
-    }
-    
-    .bt-whatsapp > a {
-        background-color: #3b3a1e;
-        color: #fff;
-        text-decoration: none;  
-    }
-
-    .apres-profissional {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 10px;
-    }
-
-    .img-kelli {
-        border-radius: 100px;
-        width: 80vw;
-    }
-
-    .titulo-kelli {
-        font-family: 'marcellus', sans-serif;
-        font-size: 1.3em;
-        text-align: center;
-        color: var(--cor01);  
-    }
-
-    .tx-kelli {
-        text-indent: 1em;
-        font-family: 'poppins', sans-serif;
-        font-size: 0.9em;
-        padding: 15px;
-    }
-
-    .missao {
-        font-family: 'marcellus', sans-serif;
-        font-size: 0.9em;
-        text-align: left;
-        align-self: self-start;
-        color: var(--cor01);  
-        margin: 10px 0;
-    }
-
-    .tx-missao {
-        font-family: 'poppins', sans-serif;
-        text-indent: 1em;
-        font-size: 0.9em;
-        padding: 15px;        
-    }
-    
-    .chamada {
-        font-family: 'poppins', sans-serif;
-        font-size: 1.3em;
-        font-weight: normal;
-        text-align: center;
-        color: var(--cor02);
-    }
-
-    .agendamento {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 80vw;
-        margin: 20px 10%;
-        padding: 20px 0;
-        background-color: var(--cor01);
-        color: #fff;
-        font-family: 'marcellus', sans-serif;
-        font-size: 1.5em;
-        font-weight: 900;
-        text-decoration: none;
-        text-align: center;
-        border-radius: 60px;     
-        box-shadow: 1px 1px 2px #29170b;
-    }
-
-   .agendamento > a {
+.tx-apres > .botao {
+    width: 300px;
+    padding: 20px 0;
+    background-color: var(--cor02);
     color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-size: 1em;
+    font-weight: normal;
     text-decoration: none;
-   }
+    text-align: center;
+    align-self: center;
+    margin: 20px;
+    border-radius: 60px;        
+}
 
-    .localizacao {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: self-start;
-        gap: 20px 20px;
-        padding: 0 20px 20px 20px; 
-        font-size: 0.8em;
+.img-massagem {
+    border-radius: 100px;
+    width: 300px;
+    align-self: center;    
+}
+
+#tl-beneficios {
+   text-align: center;
+   background-color: var(--cor01);
+   font-family: 'marcellus', sans-serif;
+    font-size: 1.5em;
+    padding: 14px;
+    color: #fff;
+}
+
+.br-line {
+    display: none;
+}
+
+.grid-beneficios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;        
+    gap: 40px 20px;
+    width: 90vw;
+    margin: 50px auto;
+    max-width: 1800px;
+}
+
+.bene {
+    display: flex;
+    flex-basis: 250px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor02);
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    box-shadow: 2px 2px 5px #000;
+    border-radius: 40px;
+    padding: 20px;
+    height: 150px;
+}
+
+.escolha {
+    color: var(--cor01);
+    font-family: 'marcellus', sans-serif;
+    font-size: 1.5em;
+    padding: 0 160px;
+    text-align: center;
+    margin: 30px 30px;        
     }
 
-    #wpp, #ins {
-        color:var(--cor02);
-        font-size: 1.0em;
-    }
+.servicos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;        
+    gap: 20px 0px;
+    margin: 50px auto;
+    max-width: 1500px;
+    
+    border: 2px dashed green;
+}
+.serv {
+    background-color: var(--cor01);
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    box-shadow: 2px 2px 5px #000000af;
+    border-radius: 60px;
+    padding: 20px;
+    width: 35%;
+    height: 200px;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.serv > h2 {
+    color: #ffffff;
+    font-family: 'poppins', sans-serif;
+    margin-bottom: 8px;
+    font-size: 1.5em;
+}
 
-    footer > p {
-        text-align: center;
-        font-size: 0.8em;
-        color: #fff;
-        background-color: var(--cor01);
-        padding: 3px;        
-    }
+.serv > p {
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+}
 
-    .seu-momento {
-        text-align: center;
-        color: var(--cor02);
-        font-family: 'marcellus', sans-serif;
-        font-size: 1em;
-        margin: 20px;
-    }
-
-    .localizacao {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: self-start;
-        gap: 20px 20px;
-        padding: 0 20px 20px 20px; 
-        font-size: 1em;
-        font-family: 'poppins', sans-serif;
-    }
-
-    footer {
-        font-family: 'poppins', sans-serif;
-        text-align: center;
-        font-size: 1em;
-        color: #fff;
-        background-color: var(--cor01);
-        padding: 5px;        
-    }
 
 }
