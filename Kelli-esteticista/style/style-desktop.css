@@ -163,10 +163,11 @@
     align-items: center;        
     gap: 20px 0px;
     margin: 50px auto;
-    max-width: 1500px;
+    padding: 40px;
     
-    border: 2px dashed green;
+    background: #000000 url('../imagens/fundo-branco-logo-terracota.jpg') center center no-repeat fixed;
 }
+
 .serv {
     background-color: var(--cor01);
     color: #fff;
@@ -177,12 +178,13 @@
     border-radius: 60px;
     padding: 20px;
     width: 35%;
-    height: 200px;
+    height: 180px;
     margin: 0 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 500px;
 }
 .serv > h2 {
     color: #ffffff;
@@ -194,6 +196,51 @@
 .serv > p {
     color: #fff;
     font-family: 'poppins', sans-serif;
+}
+
+.ca > h2  {
+    font-family: 'marcellus', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: var(--cor02);
+    margin: 20px;
+}
+
+.bt-whatsapp {
+    background-color:var(--cor02);
+    border-radius: 40px;
+    padding: 20px;
+    margin: 30px auto;
+    width: 500px;
+    text-align: center;
+    }
+
+.bt-whatsapp > a {
+    color: #fff;
+    text-decoration: none;  
+    font-family: 'poppins', sans-serif;
+    font-weight: 900;
+}
+
+.apres-profissional {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+.foto-kelli {
+    border-radius: 80px;
+    width: 400px;    
+}
+
+.titulo-kelli {
+    font-family: 'marcellus', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    color: var(--cor01);  
 }
 
 
