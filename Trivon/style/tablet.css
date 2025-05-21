@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (max-width: 1439px) {
+
 * {
     margin: 0;
     padding: 0;
@@ -20,13 +21,13 @@ body {
     margin: auto
 }
 
-img.logo-mobile { display: block;}
-img.logo-desktop { display: none; }
-img.logo-tv { display: none }
+img.logo-mobile { display: none;}
+img.logo-desktop { display: block; }
+img.logo-tv { display: none;}
 
 .conteudo {
     text-align: center;
-    max-width: 80vw;
+    max-width: 900px;
     margin: auto;
 }
 

@@ -18,11 +18,11 @@ body {
 .logo-mobile {
     width: 100%;
     max-height: 800px;
-    margin: auto
+    margin: auto;
 }
 
 img.logo-mobile { display: none;}
-img.logo-desktop { display: none; }
+img.logo-desktop { display: block; }
 img.logo-tv { display: block }
 
 .conteudo {
