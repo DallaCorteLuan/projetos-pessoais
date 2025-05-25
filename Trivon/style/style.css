@@ -104,7 +104,7 @@ a {
 .music {
     display: block;
     width: 100%;
-    max-width: 800px;
+    max-width: 80%;
     margin: auto;
     margin-top: 40px;
 }
