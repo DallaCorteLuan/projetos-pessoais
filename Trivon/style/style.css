@@ -17,6 +17,10 @@
 
 body {
    background-color: #fff;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   flex: 1;
 }
 
 .logo-mobile {
@@ -112,8 +116,9 @@ a {
 footer {
     text-align: center;
     font-family: 'raleway', sans-serif;
-    font-size: 1em;
-    margin-top: 30px;
+    font-size: 1.5em;
+    margin-top: auto;
     padding: 10px;
     background-color: #f96700;
+    position: relative;
 }
