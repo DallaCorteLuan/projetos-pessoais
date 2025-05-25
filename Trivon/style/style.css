@@ -50,7 +50,7 @@ h1 {
 .bot-01 {
     border: 1px solid #f96700;
     border-radius: 80px;
-    padding: 25px;
+    padding: 10px;
     margin-top: 30px;
     cursor: pointer;
     box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.486);
@@ -60,7 +60,7 @@ h1 {
 .bot-02 {
     border: 1px solid #f96700;
     border-radius: 80px;
-    padding: 25px;
+    padding: 10px;
     margin-top: 30px;
     cursor: pointer;
     box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.486);
@@ -68,7 +68,7 @@ h1 {
 }
 
 a {
-    font-size: 1.3em;
+    font-size: 1em;
     font-family: 'raleway', sans-serif;
     text-decoration: none;
     color: #000;  
