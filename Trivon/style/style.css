@@ -40,16 +40,21 @@ img.logo-desktop { display: none; }
 
 h1 {
     font-family: 'raleway', sans-serif;
-    font-size: 1.5em;
+    font-size: 0.7em;
 }
 
-.itens {
+.itens-mobile {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 0 20px;
     margin-top: 30px;
 }
+
+.itens-desktop {
+    display: none;
+}
+
 
 .bot-01 {
     border: 1px solid #f96700;
