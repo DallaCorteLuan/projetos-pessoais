@@ -40,7 +40,7 @@ img.logo-desktop { display: none; }
 
 h1 {
     font-family: 'raleway', sans-serif;
-    font-size: 0.7em;
+    font-size: em;
 }
 
 .itens-mobile {
@@ -48,7 +48,7 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 0 20px;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .itens-desktop {
@@ -60,7 +60,7 @@ h1 {
     border: 1px solid #f96700;
     border-radius: 80px;
     padding: 10px;
-    margin-top: 40px;
+    margin: 100px auto;
     cursor: pointer;
     box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.486);
     animation: pulsar 2s infinite;
@@ -110,8 +110,8 @@ a {
     display: block;
     width: 100%;
     max-width: 80%;
-    margin: auto;
-    margin-top: 40px;
+    margin: 100px auto;
+    
 }
 
 .music-desktop {
@@ -122,7 +122,7 @@ footer {
     text-align: center;
     font-family: 'raleway', sans-serif;
     font-size: 1em;
-    margin-top: auto;
+    margin-top: 100px;
     padding: 10px;
     background-color: #f96700;
     position: relative;
