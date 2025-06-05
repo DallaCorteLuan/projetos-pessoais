@@ -2,10 +2,18 @@
 
 /* Versão Telas Maiores */
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 @font-face {
     font-family: 'marcellus';
-    src: url(../fonts/Marcellus-Regular.ttf) format(opentype);
+    src: url(../fonts/Kedem\ Ultra\ Light.otf) format(opentype);
     font-weight: normal;
 }
 
@@ -59,6 +67,7 @@
     justify-content: center; 
     height: 100vh;  
     max-width: 1800px; 
+    animation: fadeIn 2s ease-in-out;
 }
 
 .tx-apres {
@@ -70,7 +79,7 @@
 
 .tx-apres > h1{
     font-family: 'marcellus', sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     color: var(--cor01);
     margin-top: 20px;
@@ -101,17 +110,18 @@
 }
 
 .img-massagem {
-    border-radius: 100px;
+    border-radius: 60px;
     width: 300px;
     align-self: center;    
 }
 
-#tl-beneficios {
-   text-align: center;
-   background-color: var(--cor01);
-   font-family: 'marcellus', sans-serif;
-    font-size: 1.5em;
-    padding: 14px;
+#tl-beneficios, #tl-beneficios > h2 {
+    text-align: center;
+    background-color: var(--cor01);
+    font-family: 'marcellus', sans-serif;
+    font-size: 1.4em;
+    padding: 10px;
+    margin: 0;
     color: #fff;
 }
 
