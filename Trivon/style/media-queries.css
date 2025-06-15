@@ -48,6 +48,7 @@ img.logo-desktop {
 h1 {
     font-family: 'raleway', sans-serif;
     font-size: 3em;
+    max-width: 800px;
 }
 
 .itens-desktop {
@@ -65,8 +66,8 @@ h1 {
 .bot-01 {
     border: 2px solid #f96800;
     border-radius: 80px;
-    padding: 25px;
-    margin-top: 100px;
+    padding: 15px;
+    margin: 80px auto 0 auto;
     max-width: 500px;
     cursor: pointer;
     box-shadow: 2px 2px 15px #f96800;
@@ -76,8 +77,8 @@ h1 {
 .bot-02 {
     border: 2px solid #f96700;
     border-radius: 80px;
-    padding: 25px;
-    margin: 30px auto;
+    padding: 15px;
+    margin: 50px auto 0 auto;
     max-width: 500px;
     cursor: pointer;
     box-shadow: 2px 2px 15px #f96700;
@@ -93,11 +94,9 @@ a {
 
 .bot-01:hover {
     background-color: #f96700;
-    background-color: #000;
 }
 .bot-02:hover {
    background-color: #f96700;
-    background-color: #000;
 }
 
 .music {
