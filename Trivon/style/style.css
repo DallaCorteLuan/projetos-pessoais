@@ -41,11 +41,13 @@ img.logo-desktop { display: none; }
 
 h1 {
     font-family: 'raleway', sans-serif;
-    font-size: .7em;
+    font-size: 1em;
+    max-width: 300px;
+    margin: auto;
 }
 
 .itens-mobile {
-    display: flex;
+    display: none;
     justify-content: center;
     flex-wrap: wrap;
     gap: 0 20px;
@@ -58,22 +60,24 @@ h1 {
 
 
 .bot-01 {
-    border: 1px solid #f96700;
+    border: 2px solid #f96800;
     border-radius: 80px;
-    padding: 10px;
-    margin: 100px auto;
+    padding: 15px;
+    margin-top: 100px;
+    max-width: 500px;
     cursor: pointer;
-    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.486);
+    box-shadow: 2px 2px 15px #f96800;
     animation: pulsar 2s infinite;
 }
 
 .bot-02 {
-    border: 1px solid #f96700;
+    border: 2px solid #f96700;
     border-radius: 80px;
-    padding: 10px;
-    margin-top: 40px;
+    padding: 15px;
+    margin: 50px auto;
+    max-width: 500px;
     cursor: pointer;
-    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.486);
+    box-shadow: 2px 2px 15px #f96700;
     animation: pulsar 2s infinite;
 }
 
@@ -86,24 +90,19 @@ a {
 
 .bot-01:hover {
     background-color: #f96700;
-    transform: scale(125%);
-    background-color: #000;
-    transition-duration: .5s;
 }
+
 .bot-02:hover {
    background-color: #f96700;
-    transform: scale(125%);
-    background-color: #000;
-    transition-duration: .5s;
 }
 
 .bot-01:hover a {
-    color: #f96700;
+    color: #000000;
     transition-duration: .5s;
 }
 
 .bot-02:hover a {
-    color: #f96700;
+    color: #000000;
     transition-duration: .5s;
 }
 
@@ -111,7 +110,7 @@ a {
     display: block;
     width: 100%;
     max-width: 80%;
-    margin: 100px auto;
+    margin: 20px auto;
     
 }
 
@@ -120,7 +119,6 @@ a {
 }
 
 footer {
-    color: #000000;
     text-align: center;
     font-family: 'raleway', sans-serif;
     font-size: 1em;
