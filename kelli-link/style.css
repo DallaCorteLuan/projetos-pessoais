@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(imagens/bakground.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    border: 1px solid black;
+    border-radius: 80px;
+    width: 100%;
+    background-color: #ffffffd7;
+    height: 80vh;
+}
+
+.cima {    
+    display: grid;    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    justify-content: start;
+}
+
+.logo {
+    display: grid;
+    align-self: center;
+    justify-content: end;
+    
+}
+
+.foto {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
